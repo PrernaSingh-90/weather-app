@@ -22,7 +22,7 @@ A modern and responsive Weather Application built using React that allows users 
 
   ## 📸 Screenshots
 
-  ### 🔍 Search Weather
+  ### 🏠 Home Result
 ![full Home Result](screenshots/home.png)
 
 ### 🔍 Search Weather
