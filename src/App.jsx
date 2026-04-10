@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useRef, useState } from 'react';
 import useLocalStorage from './hooks/useLocalStorage';
 import SearchBar from './components/SearchBar';
@@ -25,7 +26,8 @@ const App = () => {
                 (position) => {
                     fetchWeatherByCoords(position.coords.latitude, position.coords.longitude);
                 },
-                (err) => {
+                // eslint-disable-next-line no-unused-vars
+                (error) => {
                     fetchWeather("Delhi");
                 }
             );
