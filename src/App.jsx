@@ -9,7 +9,8 @@ import RecentSearches from './components/RecentSearches';
 import './index.css';
 import bgImage from './assets/bg.jpg';
 
-const API_KEY = "48f16f45673a599912cc268e57f16b23";
+
+const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 
 const App = () => {
