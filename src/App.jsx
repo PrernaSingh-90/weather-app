@@ -27,7 +27,6 @@ const App = () => {
                 (position) => {
                     fetchWeatherByCoords(position.coords.latitude, position.coords.longitude);
                 },
-                // eslint-disable-next-line no-unused-vars
                 (error) => {
                     fetchWeather("Delhi");
                 }
